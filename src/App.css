@@ -1,0 +1,10 @@
+.main{
+  padding:15px;
+}
+.blog-list-item{
+  cursor:pointer;
+}
+.blog-list-item:hover{
+  text-decoration: underline;
+  color: #2196F3;
+}
