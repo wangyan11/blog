@@ -2,3 +2,14 @@
     color: #999;
     text-align: center;
 }
+.swiper-container{
+    width: 600px;
+    height: 400px;
+    background:pink;
+}
+.swiper-slide{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}

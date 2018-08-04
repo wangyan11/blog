@@ -8,7 +8,9 @@ import {
 } from "react-router-dom";
 import {
   Home,
-  Blog
+  Blog,
+  Detail,
+  About
 } from "./pages";
 
 class App extends Component {
@@ -18,8 +20,9 @@ class App extends Component {
         <Switch>
           <Redirect exact to="/home" from=""/>
           <Route component={Home} path="/home"/>
-          <Route component={Blog} path="/Blog"/>
-
+          <Route exact component={Blog} path="/blog"/>
+          <Route component={Detail} path="/blog/post/:id"/>
+          <Route component={About} path="/about"/>
         </Switch>
       </Router>
     );

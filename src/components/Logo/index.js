@@ -6,7 +6,7 @@ import "./logo.css";
 export default (props)=>{
     console.log(props)
     return (
-        <div className={classNames("logo",{"vertical":props.vertical})}>
+        <div className={classNames("logo bounceIn",{"vertical":props.vertical})}>
             <img src={logo} alt="Blog" className="logo-img"/>
             <h1 className="logo-title">wangyan的博客</h1>
         </div>
